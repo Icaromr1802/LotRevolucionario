@@ -81,18 +81,19 @@ body{
        background-color: rgb(255, 102, 0);
        border: rgb(255, 102, 0);
    }
-   .mvv{
+   .dados{
        margin-left: 0%;
-       max-width: 120%;
+       max-width: 100%;
        height: 300px;
        width: 100%;
        background-color: black;
+       text-align:right;
    }
-   .mvv b{
+   .dados b{
        padding-left: 90px;
        color:cornsilk;
    }
-   .mvv nav{
+   .dados nav{
        margin-top: 12px;
        color: cornsilk;
    }
@@ -100,16 +101,39 @@ body{
        margin-left: 20px;
        float: left;
        padding-top: 4%;
-       width: 300px;
-      
-      
+       width: 300px;   
    }
+   #div_2{
+    margin-left: 20px;
+    float: left;
+    padding-top: 4%;
+    width: 300px;   
+}
+#div_3{
+    margin-left: 20px;
+    float: left;
+    padding-top: 4%;
+    width: 300px;   
+}
    #img_1{
        padding-left: 60px;
        width: 100px;
        height: 100px;
        margin: 25px 10px 25px 10px;
    }
+   #img_2{
+    padding-left: 60px;
+    width: 100px;
+    height: 100px;
+    margin: 25px 10px 25px 10px;
+}
+
+    #img_3{
+       padding-left: 60px;
+       width: 100px;
+       height: 100px;
+       margin: 25px 10px 25px 10px;
+    }
    .Header_3{
        background-color: rgb(255, 102, 0);
        width: 100%;
