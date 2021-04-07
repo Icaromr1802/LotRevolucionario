@@ -58,8 +58,7 @@ body{
        background-color: rgb(51, 46, 46);
        width: 100%;
        height: 85px;
-       
-       
+         
    }
    .Box_2{
        margin-left: 10%;
@@ -88,7 +87,7 @@ body{
        width: 100%;
        background-color: black;
        text-align:right;
-       float: left;
+      
    }
    .dados b{
        padding-left: 90px;
@@ -99,7 +98,7 @@ body{
        color: cornsilk;
    }
    #div_1{
-       margin-left: 20px;
+       margin-left: 200px;
        float: left;
        padding-top: 4%;
        width: 300px;   
@@ -146,3 +145,83 @@ body{
        color: rgb(255, 255, 255);
        padding-top: 40px;
    }
+
+   .PagLogin{
+       background-color:cornsilk;
+       text-align: center;
+       padding: 50px 0px;
+       height: 345px;
+   }
+   
+   .box-login{
+       display: inline-block;
+       background-color:rgb(51, 46, 46);
+       box-shadow: 5px 5px 8px 4px  cadetblue;
+       padding: 60px 20px 0px 20px;
+       border-radius: 20px;
+       width: 400px;
+       color:orangered;
+       height: 80%;
+   }
+
+   .PagLogin .input_padrao{
+       width: 70%;
+       display: inline-block;
+
+   }
+
+    .Btn-green{
+        color:black;
+        background-color: orangered;
+        margin: 20px 0 50px 0;
+        border: 0;
+        padding: 10px 20px;
+
+        border-radius: 20px;
+        float: left ;
+        cursor: pointer;
+    }
+
+    .PagLogin .Btn-green{
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    .PagCadastro {
+        width: 100%;
+        height: 450px;
+        background-color: #ecf0f1;
+    }
+    
+    .img-fundo{
+        background-image: url(cadastrar.jpg);
+        background-repeat: no-repeat;
+        height: 95%;
+        width: 40%;
+        background-size: 100% 100%;
+        float: left;
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+
+    .Box-cadastro{
+        width: 50%;
+        height: 425px;
+        float: left;
+       
+    }
+
+    .Box-cadastro form{
+        padding-left: 40px;
+    }
+
+    h1{
+        padding-left: 40px;
+    }
+    
+    .Box-cadastro input{
+        width: 300px;
+        height: 25px;
+
+    }
